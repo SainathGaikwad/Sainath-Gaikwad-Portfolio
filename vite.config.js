@@ -5,5 +5,5 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   assetsInclude: ["**/*.glb"],
-  base: "/Sainath-Gaikwad-Portfolio/",
+  // base: "/Sainath-Gaikwad-Portfolio/",
 });

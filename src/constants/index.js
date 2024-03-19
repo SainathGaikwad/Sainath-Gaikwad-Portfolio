@@ -1,4 +1,9 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import {
+  meta,
+  shopify,
+  project_planners_inc_logo,
+  letsgrowmore_logo,
+} from "../assets/images";
 import {
   car,
   contact,
@@ -113,7 +118,7 @@ export const experiences = [
   {
     title: "Web Development Intern",
     company_name: "Project Planners Corp.",
-    icon: starbucks,
+    icon: project_planners_inc_logo,
     iconBg: "#accbe1",
     date: "May 2023 - June 2023",
     points: [
@@ -125,7 +130,7 @@ export const experiences = [
   {
     title: "Web-Development Intern",
     company_name: "LetsGrowMore",
-    icon: tesla,
+    icon: letsgrowmore_logo,
     iconBg: "#fbc3bc",
     date: "May 2023 - June 2023",
     points: [

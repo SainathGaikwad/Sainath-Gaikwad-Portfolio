@@ -17,7 +17,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium sm:text-xl text-center">
-          Worked with many companies <br /> and picked up many skills along the
+          Worked with many projects <br /> and picked up many skills along the
           way
         </p>
 
@@ -33,7 +33,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium text-center sm:text-xl">
-          Led multiple projects to success over the years. <br /> Curious about
+          Done multiple projects to success in this field. <br /> Curious about
           the impact?
         </p>
 

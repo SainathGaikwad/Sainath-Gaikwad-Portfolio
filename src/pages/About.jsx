@@ -22,12 +22,18 @@ const About = () => {
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
           I am a final-year student at Mgm's college of engineering,
-          Nanded-Mahrashtra. I am an enthusiastic, motivated, and hard-working
-          individual. I have prior experience of an internship as a Web
-          developer. Currently, I am working on my programming skills. I am a
-          highly motivated, results-driven and dedicated engineer who is
-          passionate about developing my skills and knowledge further. Apart, I
-          love to play Cricket and read.
+          Nanded-Mahrashtra. Currently, I am pursuing a B.Tech degree in
+          Computer Science and Engineering and I have worked in a team in Smart
+          India Hackathon (SIH) 2022 and our team was selected for the grand
+          finale. I have learned valuable technical skills like programming
+          languages like Java, HTML, CSS, JavaScript, react JS, Next JS, Node
+          JS, etc. and soft skills like Resilient, Growth Mindset, Error
+          Searching and solving, Googler, Adaptability, etc. I am an
+          enthusiastic, motivated, and hard-working individual. Currently, I am
+          working on my programming skills. I am a highly motivated,
+          results-driven and dedicated engineer who is passionate about
+          developing my skills and knowledge further. Apart, I love to play
+          Cricket and read.
         </p>
       </div>
 

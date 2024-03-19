@@ -9,6 +9,7 @@ import Plane from "../models/Plane";
 import HomeInfo from "../components/HomeInfo";
 import { soundoff, soundon } from "../assets/icons";
 import sakura from "../assets/sakura.mp3";
+import { Html } from "@react-three/drei";
 
 const Home = () => {
   const audioRef = useRef(new Audio(sakura));
@@ -76,31 +77,37 @@ const Home = () => {
         <Suspense fallback={<Loader />}>
           <directionalLight position={[1, 1, 1]} intensity={2} />
           <ambientLight intensity={0.5} />
+          <pointLight position={[10, 5, 10]} intensity={2} />
+          <spotLight
+            position={[0, 50, 10]}
+            angle={0.15}
+            penumbra={1}
+            intensity={2}
+          />
           <hemisphereLight
             skyColor="#b1e1ff"
             groundColor="#000000"
             intensity={1}
           />
+
           <Bird />
           <Sky isRotating={isRotating} />
-
           <Island
-            position={islandPosition}
-            scale={islandScale}
-            rotation={islandRotation}
             isRotating={isRotating}
             setIsRotating={setIsRotating}
             setCurrentStage={setCurrentStage}
+            position={islandPosition}
+            rotation={[0.1, 4.7077, 0]}
+            scale={islandScale}
           />
           <Plane
             isRotating={isRotating}
-            planeScale={planeScale}
-            planePosition={planePosition}
-            rotation={[0, 20, 0]}
+            position={planePosition}
+            rotation={[0, 20.1, 0]}
+            scale={planeScale}
           />
         </Suspense>
       </Canvas>
-
       <div className="absolute bottom-2 left-2">
         <img
           src={!isPlayingMusic ? soundoff : soundon}

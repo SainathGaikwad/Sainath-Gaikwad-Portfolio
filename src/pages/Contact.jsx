@@ -76,8 +76,10 @@ const Contact = () => {
   return (
     <section className="relative flex lg:flex-row flex-col max-container">
       {alert.show && <Alert {...alert} />}
+
       <div className="flex-1 min-w-[50%] flex flex-col">
         <h1 className="head-text">Get in Touch</h1>
+
         <form
           ref={formRef}
           onSubmit={handleSubmit}
@@ -89,7 +91,7 @@ const Contact = () => {
               type="text"
               name="name"
               className="input"
-              placeholder="sai"
+              placeholder="John"
               required
               value={form.name}
               onChange={handleChange}
@@ -103,7 +105,7 @@ const Contact = () => {
               type="email"
               name="email"
               className="input"
-              placeholder="writeyouremail@gmail.com"
+              placeholder="John@gmail.com"
               required
               value={form.email}
               onChange={handleChange}
@@ -124,6 +126,7 @@ const Contact = () => {
               onBlur={handleBlur}
             />
           </label>
+
           <button
             type="submit"
             disabled={loading}

@@ -7,9 +7,10 @@ import project_planners_inc_logo from "./project_planners_inc_logo.jpeg";
 import letsgrowmore_logo from "./letsgrowmore_logo.jpeg";
 import resume from "./resume.jpg";
 import logo from "./logo.svg";
-import java from "./resume.jpg";
-import sql from "./resume.jpg";
+import java from "./java.jpg";
+import sql from "./sql.jpg";
 import vsCode from "./vsCode.jpg";
+import postman from "./postman.jpg";
 
 export {
   hero,
@@ -22,4 +23,5 @@ export {
   java,
   sql,
   vsCode,
+  postman,
 };

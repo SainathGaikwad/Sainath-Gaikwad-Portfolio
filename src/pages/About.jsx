@@ -22,23 +22,34 @@ const About = () => {
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
           I am a dedicated and innovative Computer Science and Engineering
-          student, with a passion for full-stack development and a proven track
-          record in web development. As a Smart India Hackathon 2022 Grand
+          Graduate , with a passion for full-stack development and a proven
+          track record in web development. As a Smart India Hackathon 2022 Grand
           Finalist, I thrive in collaborative environments and enjoy solving
           complex problems using modern technologies. Key Highlights: -
           Proficient in Java, HTML, CSS, JavaScript, ReactJS, ExpressJS, NodeJS,
           MongoDB, SQL, Web Services, Postman API,Git, Github, Visual Studio
-          Code and more. - Experience with building and deploying scalable web
-          applications. - Successfully completed internships at
-          ProjectPlanners.corp and LetsGrowMore, where I honed my skills in
-          various JavaScript frameworks and backend technologies. - Developed
-          multiple projects including a social media web app, e-commerce
-          website, and a food donation platform, Advanced Hotel-booking website
-          significantly improving user engagement and reducing food waste. - I
-          am passionate about continuous learning and am always seeking new
-          challenges to further develop my skills. My goal is to leverage my
-          technical expertise and problem-solving abilities to contribute to
-          innovative projects and make a meaningful impact in the tech industry.
+          Code and more.
+          <span>
+            - Experience with building and deploying scalable web applications.
+          </span>{" "}
+          <span>
+            - Successfully completed internships at ProjectPlanners.corp and
+            LetsGrowMore, where I honed my skills in various JavaScript
+            frameworks and backend technologies.
+          </span>
+          <span>
+            - Developed multiple projects including a social media web app,
+            e-commerce website, and a food donation platform, Advanced
+            Hotel-booking website significantly improving user engagement and
+            reducing food waste.
+          </span>
+          <span>
+            - I am passionate about continuous learning and am always seeking
+            new challenges to further develop my skills. My goal is to leverage
+            my technical expertise and problem-solving abilities to contribute
+            to innovative projects and make a meaningful impact in the tech
+            industry.
+          </span>
         </p>
       </div>
 

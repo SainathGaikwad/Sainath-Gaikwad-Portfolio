@@ -7,6 +7,7 @@ import {
   java,
   sql,
   vsCode,
+  postman,
 } from "../assets/images";
 import {
   car,
@@ -39,7 +40,7 @@ export const skills = [
   {
     imageUrl: java,
     name: "java",
-    type: "programming language",
+    type: "Frontend",
   },
   {
     imageUrl: html,
@@ -86,6 +87,11 @@ export const skills = [
     imageUrl: sql,
     name: "SQL",
     type: "Database",
+  },
+  {
+    imageUrl: postman,
+    name: "Postman",
+    type: "Version Control",
   },
   {
     imageUrl: github,

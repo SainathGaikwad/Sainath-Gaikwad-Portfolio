@@ -3,6 +3,10 @@ import {
   shopify,
   project_planners_inc_logo,
   letsgrowmore_logo,
+  resume,
+  java,
+  sql,
+  vsCode,
 } from "../assets/images";
 import {
   car,
@@ -33,28 +37,23 @@ import {
 
 export const skills = [
   {
+    imageUrl: java,
+    name: "java",
+    type: "programming language",
+  },
+  {
+    imageUrl: html,
+    name: "HTML",
+    type: "Frontend",
+  },
+  {
     imageUrl: css,
     name: "CSS",
     type: "Frontend",
   },
   {
-    imageUrl: express,
-    name: "Express",
-    type: "Backend",
-  },
-  {
-    imageUrl: git,
-    name: "Git",
-    type: "Version Control",
-  },
-  {
-    imageUrl: github,
-    name: "GitHub",
-    type: "Version Control",
-  },
-  {
-    imageUrl: html,
-    name: "HTML",
+    imageUrl: tailwindcss,
+    name: "Tailwind CSS",
     type: "Frontend",
   },
   {
@@ -63,9 +62,45 @@ export const skills = [
     type: "Frontend",
   },
   {
+    imageUrl: react,
+    name: "React",
+    type: "Frontend",
+  },
+  {
+    imageUrl: nodejs,
+    name: "Node.js",
+    type: "Backend",
+  },
+
+  {
+    imageUrl: express,
+    name: "Express",
+    type: "Backend",
+  },
+  {
     imageUrl: mongodb,
     name: "MongoDB",
     type: "Database",
+  },
+  {
+    imageUrl: sql,
+    name: "SQL",
+    type: "Database",
+  },
+  {
+    imageUrl: github,
+    name: "GitHub",
+    type: "Version Control",
+  },
+  {
+    imageUrl: git,
+    name: "Git",
+    type: "Version Control",
+  },
+  {
+    imageUrl: vsCode,
+    name: "Visual Studio Code",
+    type: "Version Control",
   },
   //   {
   //     imageUrl: motion,
@@ -77,36 +112,23 @@ export const skills = [
   //     name: "Material-UI",
   //     type: "Frontend",
   //   },
-  {
-    imageUrl: nextjs,
-    name: "Next.js",
-    type: "Frontend",
-  },
-  {
-    imageUrl: nodejs,
-    name: "Node.js",
-    type: "Backend",
-  },
-  {
-    imageUrl: react,
-    name: "React",
-    type: "Frontend",
-  },
-  {
-    imageUrl: redux,
-    name: "Redux",
-    type: "State Management",
-  },
+  // {
+  //   imageUrl: nextjs,
+  //   name: "Next.js",
+  //   type: "Frontend",
+  // },
+
+  // {
+  //   imageUrl: redux,
+  //   name: "Redux",
+  //   type: "State Management",
+  // },
   {
     imageUrl: sass,
     name: "Sass",
     type: "Frontend",
   },
-  {
-    imageUrl: tailwindcss,
-    name: "Tailwind CSS",
-    type: "Frontend",
-  },
+
   //   {
   //     imageUrl: typescript,
   //     name: "TypeScript",
@@ -156,9 +178,22 @@ export const socialLinks = [
     iconUrl: linkedin,
     link: "https://www.linkedin.com/in/sainath-gaikwad-saibhau1234564789/",
   },
+  {
+    name: "Resume",
+    iconUrl: resume,
+    link: "https://drive.google.com/file/d/1mq8AArPp4DSVOOC73rGUbXFA2Acg-mjG/view?usp=sharing",
+  },
 ];
 
 export const projects = [
+  {
+    iconUrl: summiz,
+    theme: "btn-back-yellow",
+    name: "ML-Powered Plant Disease Detection Model (Final Year Project)",
+    description:
+      "Create a system that uses AI to identify plant diseases based on images of leaves.Utilise computer vision and deep learning to analyse visual symptoms and provide accurate disease diagnosis.",
+    link: "https://github.com/SainathGaikwad/ML-Powered-Plant-Disease-Detection-Model-Final-Year-Project-",
+  },
   {
     iconUrl: pricewise,
     theme: "btn-back-red",
@@ -190,14 +225,5 @@ export const projects = [
     description:
       "Uber Clone with Next JS, React JS, Tailwind CSS and Firebase.Bulit Mobile application to request a ride at any time and on any day of the year. Create an account using only a Google account and enter your destination and track your drivers arrival on the map.",
     link: "https://github.com/SainathGaikwad/Uber_Clone",
-  },
-
-  {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "Advanced Hotel-Booking website",
-    description:
-      "Advanced/Responsive Hotel Booking Website with admin panel using HTML-CSS-JavaScript-Ajax-Php-Mysql-Bootstrap.In this website, user have to log in first before booking hotel and after that user can see the availability of rooms and according to that user can book the room.In this website, admin can shut down the website means user can't book the hotel rooms after shut down website. In Admin Panel, Admin can add carousels, features and facilities, rooms with its features and facilities. Admin can see which user is active or not.",
-    link: "https://github.com/SainathGaikwad/HotelBooking_sai",
   },
 ];

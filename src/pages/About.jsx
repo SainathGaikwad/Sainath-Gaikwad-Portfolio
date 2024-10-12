@@ -21,19 +21,24 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          I am a final-year student at Mgm's college of engineering,
-          Nanded-Mahrashtra. Currently, I am pursuing a B.Tech degree in
-          Computer Science and Engineering and I have worked in a team in Smart
-          India Hackathon (SIH) 2022 and our team was selected for the grand
-          finale. I have learned valuable technical skills like programming
-          languages like Java, HTML, CSS, JavaScript, react JS, Next JS, Node
-          JS, etc. and soft skills like Resilient, Growth Mindset, Error
-          Searching and solving, Googler, Adaptability, etc. I am an
-          enthusiastic, motivated, and hard-working individual. Currently, I am
-          working on my programming skills. I am a highly motivated,
-          results-driven and dedicated engineer who is passionate about
-          developing my skills and knowledge further. Apart, I love to play
-          Cricket and read.
+          I am a dedicated and innovative Computer Science and Engineering
+          student, with a passion for full-stack development and a proven track
+          record in web development. As a Smart India Hackathon 2022 Grand
+          Finalist, I thrive in collaborative environments and enjoy solving
+          complex problems using modern technologies. Key Highlights: -
+          Proficient in Java, HTML, CSS, JavaScript, ReactJS, ExpressJS, NodeJS,
+          MongoDB,SQL,Web Services, Postman API,Git,Github,Visual Studio Code
+          and more. - Experience with building and deploying scalable web
+          applications. - Successfully completed internships at
+          ProjectPlanners.corp and LetsGrowMore, where I honed my skills in
+          various JavaScript frameworks and backend technologies. - Developed
+          multiple projects including a social media web app, e-commerce
+          website, and a food donation platform, Advanced Hotel-booking website
+          significantly improving user engagement and reducing food waste. - I
+          am passionate about continuous learning and am always seeking new
+          challenges to further develop my skills. My goal is to leverage my
+          technical expertise and problem-solving abilities to contribute to
+          innovative projects and make a meaningful impact in the tech industry.
         </p>
       </div>
 

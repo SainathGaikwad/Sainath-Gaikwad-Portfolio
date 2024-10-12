@@ -27,8 +27,8 @@ const About = () => {
           Finalist, I thrive in collaborative environments and enjoy solving
           complex problems using modern technologies. Key Highlights: -
           Proficient in Java, HTML, CSS, JavaScript, ReactJS, ExpressJS, NodeJS,
-          MongoDB,SQL,Web Services, Postman API,Git,Github,Visual Studio Code
-          and more. - Experience with building and deploying scalable web
+          MongoDB, SQL, Web Services, Postman API,Git, Github, Visual Studio
+          Code and more. - Experience with building and deploying scalable web
           applications. - Successfully completed internships at
           ProjectPlanners.corp and LetsGrowMore, where I honed my skills in
           various JavaScript frameworks and backend technologies. - Developed
